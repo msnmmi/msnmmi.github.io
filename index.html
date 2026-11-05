@@ -125,31 +125,22 @@
     }
 
     .news {
-        width: 100%;
-        max-width: 880px;
+        max-width: 800px;
         margin: 36px auto 0;
         padding: 0 16px;
-        box-sizing: border-box;
         text-align: center;
     }
 
-    .news a {
-        display: block;
-    }
-
-    .news img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        display: block;
-        border: 1px solid #ccc;
+    .news .gallery {
+        display: inline-block;
+        float: none;
     }
 
     .news-caption {
-        margin: 14px auto 0;
-        max-width: 42em;
-        font-size: 18px;
-        line-height: 1.7;
+        margin: 12px auto 0;
+        max-width: 40em;
+        font-size: 16px;
+        line-height: 1.6;
         color: #111;
     }
 </style>
@@ -174,9 +165,11 @@
     </div>
 
     <div class="news">
-        <a target="_blank" href="images/msnmmi.jpg">
-            <img src="images/msnmmi.jpg" alt="CSNM 2026">
-        </a>
+        <div class="gallery">
+            <a target="_blank" href="images/msnmmi.jpg">
+                <img src="images/msnmmi.jpg" alt="CSNM 2026">
+            </a>
+        </div>
         <p class="news-caption" lang="zh-Hant">澳門核醫及分子影像學會參加中華醫學會第19次核醫學學術大會暨核醫學成立70週年紀念大會(CSNM2026），活動獲澳門基金會贊助。</p>
     </div>
 
