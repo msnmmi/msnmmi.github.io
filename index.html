@@ -15,6 +15,8 @@
         position: relative;
         margin: 0 auto;
         width: 400px;
+        max-width: 100%;
+        box-sizing: border-box;
         padding-top: 50px;
     }
 
@@ -121,9 +123,39 @@
         color: #666;
         margin-top: 20px;
     }
+
+    .news {
+        width: 100%;
+        max-width: 880px;
+        margin: 36px auto 0;
+        padding: 0 16px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .news a {
+        display: block;
+    }
+
+    .news img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border: 1px solid #ccc;
+    }
+
+    .news-caption {
+        margin: 14px auto 0;
+        max-width: 42em;
+        font-size: 18px;
+        line-height: 1.7;
+        color: #111;
+    }
 </style>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MSNMMI</title>
 </head>
 
@@ -139,6 +171,13 @@
         <br><a style=" color:#000079; font-size:20px;" href="./MSNMMI_leadership_2022-2025.pdf">2022-2025</a><br>
         <br><a style=" color:#000079; font-size:20px;" href="./MSNMMI_leadership_2019-2022.pdf">2019-2022</a><br>
         <br><a style=" color:#000079; font-size:20px;" href="./MSNMMI_leadership_2016-2019.pdf">2016-2019</a><br>
+    </div>
+
+    <div class="news">
+        <a target="_blank" href="images/msnmmi.jpg">
+            <img src="images/msnmmi.jpg" alt="CSNM 2026">
+        </a>
+        <p class="news-caption" lang="zh-Hant">澳門核醫及分子影像學會參加中華醫學會第19次核醫學學術大會暨核醫學成立70週年紀念大會(CSNM2026），活動獲澳門基金會贊助。</p>
     </div>
 
     <div class="gallery-container">
